@@ -17,3 +17,9 @@ public class NameGuessingGame {
                 break;
             } else {
                 System.out.println("No. Try again:");
+ }
+        }
+
+        
+    }
+}
