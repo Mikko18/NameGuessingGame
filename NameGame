@@ -9,3 +9,11 @@ public class NameGuessingGame {
         String guess;
 
         System.out.println("Guess the name:");
+        while (true) {
+            guess = in.nextLine();
+
+            if (guess.equalsIgnoreCase(correctName)) {
+                System.out.println("Yes! Congratulations!");
+                break;
+            } else {
+                System.out.println("No. Try again:");
